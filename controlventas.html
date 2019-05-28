@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAM 13</title>
+	
+    <link href="css/bootstrap.css" rel="stylesheet" />
+     
+    <link href="css/font-awesome.css" rel="stylesheet" />
+       
+    <link href="css/style.css" rel="stylesheet" />
+    
+
+</head>
+<body>
+     
+           
+          
+    <div id="wrapper">
+         <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="adjust-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.jpg" width="50px"/>
+
+                    </a>
+                    
+                </div>
+              
+                <span class="logout-spn" >
+                  <a href="#" style="color:#fff;">Cerrar Sesión</a>  
+
+                </span>
+            </div>
+        </div>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                 
+
+
+                    <li class="active-link">
+                        <a href="index.html" ><i class="fa fa-desktop "></i>Pantalla de Administrador</a>
+                    </li>
+                   
+
+                    <li>
+                        <a href="iniciosesion.html"><i class="fa fa-table "></i>Inicio de Sesión</a>
+                    </li>
+                    <li>
+                        <a href="controlventas.html"><i class="fa fa-edit "></i>Control de Ventas </a>
+                    </li>
+
+
+                    <li>
+                        <a href="filtradoventas.html"><i class="fa fa-qrcode "></i>Filtrado de Ventas</a>
+                    </li>
+                    <li>
+                        <a href="controlnotificaciones.html"><i class="fa fa-bar-chart-o">Control de Notificaciones</i></a>
+                    </li>
+
+                    <li>
+                        <a href="reporteventas.html"><i class="fa fa-edit "></i>Reporte  de ventas </a>
+                    </li>
+                  
+                </ul>
+                            </div>
+
+        </nav>
+
+        
+    </div>
+        <!-- /. CONTENIDO DEL SITIO  -->
+        <div id="page-wrapper" >
+            <div id="page-inner">
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h1>Control de Ventas</h1>
+                                <h3>Registre las ventas del día</h3>
+                            </div>
+                            <div class="panel-body"><div class="form-group">
+                                    <label><h4>Fecha</h4></label>
+                                    <div class="form-group">
+                                            <input type="date"/>
+                                            <br>
+                                            <label><h4>Mesa</h4></label>
+                                            <div class="checkbox">
+                                                  
+                                                <label>
+                                                    <input type="checkbox" value="" />Mesa 1
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Mesa 2
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value=""/>Mesa 3
+                                                </label>
+                                            </div>
+                                            <div class="checkbox">
+                                                    <label>
+                                                        <input type="checkbox" value=""/>Mesa 4
+                                                    </label>
+                                                </div>
+                                                <div class="checkbox">
+                                                        <label>
+                                                            <input type="checkbox" value=""/>Mesa 5
+                                                        </label>
+                                                    </div>
+                                                    <label><h4>Platillo/Bebida</h4></label>
+                                        </div>
+                                        <div class="panel-body"><div class="form-group">
+                                            </div>
+                                        </div>
+                                    <input class="form-control" />
+                                    <button type="submit" class="btn btn-default">Guardar</button>
+                                    <button type="reset" class="btn btn-primary">Cancelar</button>
+                                    <p class="help-block">Si desea registrar más, de clic .</p>
+                                </div>
+                                <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            Listado
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>No. de Mesa</th>
+                                                            <th>Platillo/Bebida</th>
+                                                            <th>Precio</th>
+                                                           
+                                                           
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr class="odd gradeX">
+                                                            <td>1</td>
+                                                            <td>Camarón en su jugo</td>
+                                                            <td>$120</td>
+                                                           
+                                                           
+                                                        </tr>
+                                                        <tr class="even gradeC">
+                                                                <td>1</td>
+                                                                <td>Cóctel</td>
+                                                                <td>$1220</td>
+                                                               
+                                                        </tr>
+                                                        <tr class="odd gradeA">
+                                                                <td>1</td>
+                                                                <td>Camarón en su jugo</td>
+                                                                <td>$120</td>
+                                                               
+                                                        </tr>
+                                                        <tr class="even gradeA">
+                                                                <td>1</td>
+                                                                <td>Camarón en su jugo</td>
+                                                                <td>$120</td>
+                                                               
+                                                        </tr>
+                                                        <tr class="odd gradeA">
+                                                                <td>1</td>
+                                                                <td>Camarón en su jugo</td>
+                                                                <td>$120</td>
+                                                               
+                                                        </tr>
+                                                      
+                                                    </tbody>
+                                                    <tfoot><th>Total:</th>
+                                                    <td>$2312</td></tfoot>
+                                                </table>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+           
+            </div>
+       
+        </div>
+    <div class="footer">
+      
+    
+            <div class="row">
+                <div class="col-lg-12" >
+                    &copy;  2019 Muelle 13, Diseñado por: JMRG 
+                </div>
+            </div>
+        </div>
+          
+
+   
+</body>
+</html>
